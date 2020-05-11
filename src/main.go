@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(quicksort.Parse([]int{9, 8, 7, 6, 5, 4, 3, 2, 1}))
+	nums := []int{9, 33, 8, 9, 7, 6, 5, 56, 4, 17, 5, 2, 2}
+	fmt.Println(quicksort.Standard(nums))
 }
